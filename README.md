@@ -2,40 +2,40 @@
 
 Aplicación móvil Android (Kotlin + Jetpack Compose) conectada a un microservicio Spring Boot. Incluye consumo de API externa, autenticación, listado de productos, carrito de compras, y carrusel dinámico con productos mixtos.
 
-## 🎯 Funcionalidades Principales
+## Funcionalidades Principales
 
 ### Frontend Android (Kotlin + Jetpack Compose)
-- ✅ **Home Screen** con carrusel dinámico de productos recomendados
-- ✅ **Búsqueda en tiempo real** por nombre o descripción
-- ✅ **Pantalla de detalles** de producto con imágenes y descripción
-- ✅ **Carrito de compras** con agregar/eliminar/vaciar/deshacer
-- ✅ **Autenticación** (Login y Registro) con validación
-- ✅ **Explorar API Externa** (DummyJSON) con botón destacado
-- ✅ **Navegación Material3** con Navigation Compose
-- ✅ **Carrusel inteligente** mezcla productos locales y externos aleatoriamente
-- ✅ **Imágenes dinámicas** cargadas desde URLs con Coil
+- **Home Screen** con carrusel dinámico de productos recomendados
+- **Búsqueda en tiempo real** por nombre o descripción
+- **Pantalla de detalles** de producto con imágenes y descripción
+- **Carrito de compras** con agregar/eliminar/vaciar/deshacer
+- **Autenticación** (Login y Registro) con validación
+- **Explorar API Externa** (DummyJSON) con botón destacado
+- **Navegación Material3** con Navigation Compose
+- **Carrusel inteligente** mezcla productos locales y externos aleatoriamente
+- **Imágenes dinámicas** cargadas desde URLs con Coil
 
 ### Backend Microservicio (Spring Boot 3 + H2)
-- ✅ **REST API completa** para productos, autenticación y carrito
-- ✅ **Base de datos H2** en memoria con datos seed
-- ✅ **CRUD de productos** (Create, Read, Update, Delete)
-- ✅ **Autenticación segura** con BCrypt para contraseñas
-- ✅ **Gestión de carrito** por usuario
-- ✅ **Consola H2** para inspección de datos
+- **REST API completa** para productos, autenticación y carrito
+- **Base de datos H2** en memoria con datos seed
+- **CRUD de productos** (Create, Read, Update, Delete)
+- **Autenticación segura** con BCrypt para contraseñas
+- **Gestión de carrito** por usuario
+- **Consola H2** para inspección de datos
 
 ### Integración API Externa
-- ✅ **Consumo de DummyJSON API** (https://dummyjson.com/products)
-- ✅ **Conversión automática** de productos externos a formato local
-- ✅ **Carrusel mixto** con 10 productos externos + productos locales
-- ✅ **Mezcla aleatoria** cada vez que se navega a Home
-- ✅ **Funcionalidad completa** (clickear, ver detalles, agregar al carrito)
+- **Consumo de DummyJSON API** (https://dummyjson.com/products)
+- **Conversión automática** de productos externos a formato local
+- **Carrusel mixto** con 10 productos externos + productos locales
+- **Mezcla aleatoria** cada vez que se navega a Home
+- **Funcionalidad completa** (clickear, ver detalles, agregar al carrito)
 
 ### Pruebas Unitarias
-- ✅ **40+ tests** cubriendo modelos, repositorios y lógica de negocio
-- ✅ Tests para `Product`, `CartItem`, `User`, `ProductRepository`
-- ✅ Tests para API Externa (`ExternalProduct`, conversiones)
-- ✅ Tests para `CartViewModel` (agregar, eliminar, calcular totales)
-- ✅ Cobertura de casos edge (precios, IDs, validaciones)
+- **40+ tests** cubriendo modelos, repositorios y lógica de negocio
+- Tests para `Product`, `CartItem`, `User`, `ProductRepository`
+- Tests para API Externa (`ExternalProduct`, conversiones)
+- Tests para `CartViewModel` (agregar, eliminar, calcular totales)
+- Cobertura de casos edge (precios, IDs, validaciones)
 
 ## Arquitectura
 - Android: Kotlin, Compose, Navigation, Room (local), Retrofit (REST)
@@ -85,7 +85,7 @@ Credenciales demo: `demo@tienda.com` / `demo123`
   - Funcionalidad completa: clickear → ver detalles → agregar al carrito
   - Mezcla aleatoria cada vez que navegas a Home
 
-## 🧪 Pruebas Unitarias
+## Pruebas Unitarias
 
 El proyecto incluye **40+ tests unitarios** con cobertura completa:
 
@@ -172,10 +172,10 @@ El reporte HTML muestra:
    ```
 - Si Android muestra “Instalación de orígenes desconocidos”, habilita la opción para esta instalación.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
-📦 App Moviles TwT
+📦 App Moviles
 ├── 📱 app/                                    # Aplicación Android
 │   ├── src/
 │   │   ├── main/
@@ -248,7 +248,7 @@ El reporte HTML muestra:
   .\gradlew assembleDebug
   ```
 
-## 📊 Métricas del Proyecto
+## Métricas del Proyecto
 
 - **Líneas de código:** ~5,000+
 - **Pantallas UI:** 6 (Home, Details, Cart, Login, Register, Explore)
@@ -257,28 +257,21 @@ El reporte HTML muestra:
 - **Tasa de éxito tests:** 100%
 - **APK size:** ~15 MB
 
-## 🎓 Gestión del Proyecto
+## Gestión del Proyecto
 
 ### Trello
-- Tablero público: https://trello.com/b/LyYSM5Wa/tienda-app-duoc
+- Tablero público: https://trello.com/b/DOfOYdW9/desarrolloapptiendamenaje
 - Columnas: To Do / In Progress / Done
-- Evidencia con screenshots
-
+  
 ### GitHub
 - Commits descriptivos y organizados
 - Estructura modular y profesional
 - `.gitignore` configurado
 
-## 📝 Notas Finales
+## Notas Finales
 
 - **Producción:** Mueve credenciales del keystore a variables de entorno o `keystore.properties` (ignorado por git)
 - **Dispositivos físicos:** Cambia `BASE_URL` a `http://<TU_IP_LOCAL>:8080/`
 - **H2 Console:** Accede en http://localhost:8080/h2-console con JDBC URL: `jdbc:h2:mem:testdb`, user: `sa`, password: *(vacío)*
 
 ---
-
-**✨ Proyecto validado y listo para evaluación ✨**
-
-*Stack: Kotlin + Compose + Spring Boot + H2 + Retrofit + DummyJSON*  
-*Tests: 40+ unitarios (100% passing)*  
-*Arquitectura: MVVM + Repository Pattern*
