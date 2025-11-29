@@ -124,11 +124,11 @@ start app\build\reports\tests\testDebugUnitTest\index.html
 **Ubicación del reporte:** `app\build\reports\tests\testDebugUnitTest\index.html`
 
 El reporte HTML muestra:
-- ✅ Total de tests ejecutados
-- ✅ Tests pasados/fallados
-- ✅ Tiempo de ejecución
-- ✅ Desglose por paquete y clase
-- ✅ Detalles de cada test individual
+- Total de tests ejecutados
+- Tests pasados/fallados
+- Tiempo de ejecución
+- Desglose por paquete y clase
+- Detalles de cada test individual
 
 ### Ejecutar tests desde Android Studio:
 
