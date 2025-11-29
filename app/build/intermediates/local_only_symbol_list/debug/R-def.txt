@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_auriculares
+drawable ic_cafetera
+drawable ic_cafetera_real
+drawable ic_cart
+drawable ic_mochila
+drawable ic_mochila_real
+drawable ic_shop
+drawable ic_taza
+drawable ic_taza_real
+drawable promo_banner
+string app_name
+style Theme.TiendaApp
+xml network_security_config

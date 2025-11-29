@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable-nodpi_promo_banner.png.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable-nodpi\\promo_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_shop.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable-nodpi_ic_taza_real.webp.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable-nodpi\\ic_taza_real.webp"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_mochila.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_mochila.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_taza.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_taza.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable-nodpi_ic_cafetera_real.webp.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable-nodpi\\ic_cafetera_real.webp"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_promo_banner.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\promo_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_cart.png.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_cafetera.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_cafetera.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable-nodpi_ic_mochila_real.webp.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable-nodpi\\ic_mochila_real.webp"
+    },
+    {
+        "merged": "com.example.tiendaapp-merged_res-67:/xml_network_security_config.xml.flat",
+        "source": "com.example.tiendaapp-main-69:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-merged_res-67:\\drawable_ic_auriculares.xml.flat",
+        "source": "C:\\Users\\cachu\\.gradle\\daemon\\8.5\\com.example.tiendaapp-main-69:\\drawable\\ic_auriculares.xml"
+    }
+]

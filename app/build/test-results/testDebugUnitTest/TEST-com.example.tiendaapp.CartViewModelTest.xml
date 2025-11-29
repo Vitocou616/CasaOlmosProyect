@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.tiendaapp.CartViewModelTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-11-29T14:03:55" hostname="VITOCO-PC" time="0.16">
+  <properties/>
+  <testcase name="external product should be addable to cart" classname="com.example.tiendaapp.CartViewModelTest" time="0.042"/>
+  <testcase name="addToCart should create valid CartItem" classname="com.example.tiendaapp.CartViewModelTest" time="0.102"/>
+  <testcase name="empty cart should have zero total" classname="com.example.tiendaapp.CartViewModelTest" time="0.001"/>
+  <testcase name="CartItem should have unique IDs" classname="com.example.tiendaapp.CartViewModelTest" time="0.0"/>
+  <testcase name="adding same product should increase quantity" classname="com.example.tiendaapp.CartViewModelTest" time="0.0"/>
+  <testcase name="CartItem should support external products with high IDs" classname="com.example.tiendaapp.CartViewModelTest" time="0.0"/>
+  <testcase name="removing item from cart should reduce count" classname="com.example.tiendaapp.CartViewModelTest" time="0.001"/>
+  <testcase name="CartItem with zero quantity should be invalid" classname="com.example.tiendaapp.CartViewModelTest" time="0.0"/>
+  <testcase name="CartItem should calculate total correctly" classname="com.example.tiendaapp.CartViewModelTest" time="0.0"/>
+  <testcase name="multiple CartItems should calculate correct total" classname="com.example.tiendaapp.CartViewModelTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

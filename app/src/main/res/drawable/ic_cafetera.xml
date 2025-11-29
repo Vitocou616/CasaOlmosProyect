@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Base de la cafetera (gris oscuro) -->
+    <path
+        android:pathData="M 60 140 L 60 160 L 140 160 L 140 140 Z"
+        android:fillColor="#4A4A4A" />
+
+    <!-- Cuerpo principal (café) -->
+    <path
+        android:pathData="M 70 80 L 70 135 L 130 135 L 130 80 Q 130 70 120 70 L 80 70 Q 70 70 70 80 Z"
+        android:fillColor="#8B6F47" />
+
+    <!-- Cilindro transparente del medio -->
+    <path
+        android:pathData="M 80 90 L 80 130 L 120 130 L 120 90 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#8B6F47"
+        android:strokeWidth="2" />
+
+    <!-- Tapa (metal) -->
+    <path
+        android:pathData="M 75 65 L 75 75 L 125 75 L 125 65 Z"
+        android:fillColor="#CCCCCC" />
+
+    <!-- Pomo de la tapa (gris) -->
+    <path
+        android:pathData="M 98 55 L 102 55 L 102 65 L 98 65 Z"
+        android:fillColor="#999999" />
+
+    <!-- Asa (marrón) -->
+    <path
+        android:pathData="M 130 95 Q 150 95 150 115 Q 150 135 130 135"
+        android:strokeColor="#8B6F47"
+        android:strokeWidth="6"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Tubo de salida (metal) -->
+    <path
+        android:pathData="M 65 120 L 50 125 L 50 130 L 65 125 Z"
+        android:fillColor="#CCCCCC" />
+</vector>

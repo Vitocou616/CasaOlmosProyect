@@ -1,0 +1,17 @@
+package com.example.tiendaapp.network.api
+
+import com.example.tiendaapp.network.model.AuthResponse
+import com.example.tiendaapp.network.model.LoginRequest
+import com.example.tiendaapp.network.model.RegisterRequest
+import retrofit2.Response
+import retrofit2.http.Body
+import retrofit2.http.POST
+
+interface AuthApiService {
+    
+    @POST("api/auth/login")
+    suspend fun login(@Body request: LoginRequest): Response<AuthResponse>
+    
+    @POST("api/auth/register")
+    suspend fun register(@Body request: RegisterRequest): Response<AuthResponse>
+}

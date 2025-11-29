@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Cuerpo principal de la mochila (azul) -->
+    <path
+        android:pathData="M 60 70 L 140 70 L 145 150 L 55 150 Z"
+        android:fillColor="#2563EB" />
+
+    <!-- Panel frontal (azul más oscuro) -->
+    <path
+        android:pathData="M 70 85 L 130 85 L 130 135 L 70 135 Z"
+        android:fillColor="#1E40AF" />
+
+    <!-- Bolsillo frontal (azul más claro) -->
+    <path
+        android:pathData="M 80 95 L 120 95 L 120 125 L 80 125 Z"
+        android:fillColor="#3B82F6" />
+
+    <!-- Correa izquierda (negro) -->
+    <path
+        android:pathData="M 75 70 L 70 50 L 72 50 L 77 70 Z"
+        android:fillColor="#000000" />
+
+    <!-- Correa derecha (negro) -->
+    <path
+        android:pathData="M 125 70 L 130 50 L 128 50 L 123 70 Z"
+        android:fillColor="#000000" />
+
+    <!-- Manija superior izquierda -->
+    <path
+        android:pathData="M 80 50 L 80 60 L 85 60"
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Manija superior derecha -->
+    <path
+        android:pathData="M 120 50 L 120 60 L 115 60"
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Cremallera (gris) -->
+    <path
+        android:pathData="M 100 85 L 100 135"
+        android:strokeColor="#AAAAAA"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Logo/Parche (naranja) -->
+    <path
+        android:pathData="M 90 110 L 110 110 L 110 120 L 90 120 Z"
+        android:fillColor="#FF8C42" />
+</vector>

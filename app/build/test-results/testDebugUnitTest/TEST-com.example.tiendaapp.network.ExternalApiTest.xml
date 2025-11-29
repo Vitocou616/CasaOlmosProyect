@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.tiendaapp.network.ExternalApiTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-11-29T14:03:59" hostname="VITOCO-PC" time="0.005">
+  <properties/>
+  <testcase name="ExternalProduct thumbnail should be valid URL format" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.003"/>
+  <testcase name="ExternalProduct should have unique IDs" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct should be created with all required fields" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct should handle high prices correctly" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct conversion to local Product should preserve data" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct with zero price should be invalid" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct should have valid price" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProduct title should not be empty" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <testcase name="ExternalProductsResponse should contain list of products" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.001"/>
+  <testcase name="ExternalProductsResponse with empty list should be valid" classname="com.example.tiendaapp.network.ExternalApiTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

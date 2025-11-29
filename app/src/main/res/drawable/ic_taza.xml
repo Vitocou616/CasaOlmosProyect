@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Cuerpo de la taza (rojo/café) -->
+    <path
+        android:pathData="M 60 80 L 140 80 L 140 140 L 60 140 Z"
+        android:fillColor="#D32F2F" />
+
+    <!-- Borde superior (gris metal) -->
+    <path
+        android:pathData="M 55 75 L 145 75 L 145 80 L 55 80 Z"
+        android:fillColor="#CCCCCC" />
+
+    <!-- Interior (color café más claro) -->
+    <path
+        android:pathData="M 65 85 L 135 85 L 135 135 L 65 135 Z"
+        android:fillColor="#8B4513" />
+
+    <!-- Café dentro -->
+    <path
+        android:pathData="M 67 100 L 133 100 L 133 133 L 67 133 Z"
+        android:fillColor="#6F3410" />
+
+    <!-- Asa (metal) -->
+    <path
+        android:pathData="M 140 95 Q 160 95 160 115 Q 160 135 140 135"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="6"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Decoración/Línea en la taza (gris) -->
+    <path
+        android:pathData="M 65 105 L 135 105"
+        android:strokeColor="#999999"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Vapor (humo) superior izquierdo -->
+    <path
+        android:pathData="M 85 70 Q 85 60 90 55"
+        android:strokeColor="#DDDDDD"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+
+    <!-- Vapor (humo) superior derecho -->
+    <path
+        android:pathData="M 115 70 Q 115 60 110 55"
+        android:strokeColor="#DDDDDD"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round" />
+</vector>

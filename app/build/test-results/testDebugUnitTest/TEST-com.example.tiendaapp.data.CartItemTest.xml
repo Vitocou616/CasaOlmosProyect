@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.tiendaapp.data.CartItemTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-11-29T14:03:55" hostname="VITOCO-PC" time="0.004">
+  <properties/>
+  <testcase name="cartItem total price calculation should be correct" classname="com.example.tiendaapp.data.CartItemTest" time="0.001"/>
+  <testcase name="cartItem with large quantity should be valid" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItem creation with all fields should succeed" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItems with different quantities should not be equal" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItem price formatting should display correctly" classname="com.example.tiendaapp.data.CartItemTest" time="0.002"/>
+  <testcase name="cartItem with auto-generated id defaults to zero" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItem with quantity one should be valid" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItem equality should work correctly" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItems with different ids should not be equal" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <testcase name="cartItems with different productIds should not be equal" classname="com.example.tiendaapp.data.CartItemTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

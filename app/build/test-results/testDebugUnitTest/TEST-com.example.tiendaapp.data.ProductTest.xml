@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.tiendaapp.data.ProductTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-11-29T14:03:59" hostname="VITOCO-PC" time="0.001">
+  <properties/>
+  <testcase name="product creation with all fields should succeed" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product with only imageUrl should have zero imageRes" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product with zero price should be valid" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product equality should work correctly" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="products with different ids should not be equal" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product with default imageRes should be zero" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product price formatting should display correctly" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <testcase name="product with only imageRes should have null imageUrl" classname="com.example.tiendaapp.data.ProductTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
